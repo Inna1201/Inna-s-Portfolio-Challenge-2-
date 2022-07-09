@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #e2e6df;
+    font-family: Arial;
+}
+
+.links {
+    background-color: #ddf1a5;
+    border-bottom: 5px solid white;
+}
+
+/*.links ul li {
+    display: inline-block;
+    margin-left: 30px;
+}*/
+
+nav a {
+    text-decoration: none;
+    color: plum;
+    font-size: 15px;
+    float: right;
+    margin-left: 30px;
+}
+
+nav a:hover {
+    color: #818580;
+  }
+
+.background {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/070/873/non_2x/abstract-banner-web-white-and-gray-geometric-hexagon-overlapping-technology-corporate-design-background-with-halftone-effect-vector.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    width: 70%;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 600px;
+        }
+
+figure img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 25px;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #818580;
+}
+
+.header p {
+    font-size: 20px;
+    color: #818580;
+}
+
+h2{
+    font-size: 30px;
+    color: plum;
+    background-color: #ddf1a5;
+}
+
+.text
+ {
+    font-size: 20px;
+    color: #818580;
+    margin: 10px 0px 50px 5px;
+}
+
+.history {
+    margin: 10px 0px 50px 5px;
+}
+
+.history li {
+    font-size: 20px;
+    color: #818580; 
+}

@@ -7,6 +7,8 @@
 body {
     background-color: #e2e6df;
     font-family: Arial;
+    --text: #818580;
+    --border: white;
 }
 
 .links {
@@ -32,7 +34,8 @@ nav a {
 }
 
 nav a:hover {
-    color: #818580;
+    color: var(--text);
+    background-color: var(--border);
   }
 
 .header { 
@@ -46,7 +49,7 @@ nav a:hover {
 
 figure img {
     border-radius: 50%;
-    border: 5px solid white;
+    border: 5px solid var(--border);
     width: 200px;
     height: auto;
     float: left;
@@ -55,12 +58,12 @@ figure img {
 
   h1 {
     font-size: 40px;
-    color: #818580;
+    color: var(--text);
 }
 
 .header p {
     font-size: 20px;
-    color: #818580;
+    color: var(--text);
     margin-top: 10px;
 }
 
@@ -70,8 +73,8 @@ figure img {
     height: 200px;
     width: 100%;
     margin-bottom: 50px;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
+    border-top: 5px solid var(--border);
+    border-bottom: 5px solid var(--border);
     background-image: url(https://static.vecteezy.com/system/resources/previews/002/070/873/non_2x/abstract-banner-web-white-and-gray-geometric-hexagon-overlapping-technology-corporate-design-background-with-halftone-effect-vector.jpg);
     background-size: cover;
     background-position: center;
@@ -96,26 +99,35 @@ h2 {
     background-color: #ddf1a5;
 }
 
+/* make items to be in list order */
+.box>* {
+    flex: 1 1 160px;
+}     .box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* sets border and layout of listed projects*/
 .travel,
 .cook,
 .swim,
 .active {
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-bottom: 50px;
-    border: 5px solid white;
+    margin: 30px 10px 50px 10px;
+    border: 5px solid var(--border);
     border-radius: 25px;
     box-shadow: 10px 10px 5px #aaaaaa;
-    width: 430px;
+    width: 390px;
     height: 360px;
 }
 
+/*styles h3 heading*/
 h3 {
     font-size: 20px;
-    color: #818580;
+    color: var(--text);
     margin: 10px 10px 10px 10px;
 }
 
+/* sets picture size and roungs edges */
 .picture { 
     width: 380px;
     height: 300px;
@@ -127,7 +139,7 @@ h3 {
 .contact
  {
     font-size: 20px;
-    color: #818580;
+    color: var(--text);
     margin: 10px 10px 50px 10px;
     line-height: 40px;
 }
@@ -140,7 +152,7 @@ h3 {
 /* rem and em are more mobily responses then px's! */
 .history li {
     font-size: 20px;
-    color: #818580; 
+    color: var(--text); 
     line-height: 50px;
 }
 
@@ -174,3 +186,4 @@ footer{
         background-color: aqua;
     }
 }
+

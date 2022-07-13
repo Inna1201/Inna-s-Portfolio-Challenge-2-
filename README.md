@@ -22,4 +22,4 @@ I have reached desirable design and layout of the web page using CSS. I have use
 
 # Link
 
-![Web page](https://inna1201.github.io/Challenge-1---Inna-Mamedova/)
+![Web page](https://inna1201.github.io/Inna-s-Portfolio-Challenge-2-/)

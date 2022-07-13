@@ -17,7 +17,7 @@ I have reached desirable design and layout of the web page using CSS. I have use
 
 # Screenshot
 
-![Preview image](./assets/images/screenshot.png)
+![Preview image](./Assets/Images/Screenshot.png)
 
 
 # Link

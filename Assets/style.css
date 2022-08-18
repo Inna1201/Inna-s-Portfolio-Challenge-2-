@@ -150,13 +150,13 @@ h3 {
 /* sets picture size and roungs edges */
 .picture { 
     width: 400px;
-    height: 300px;
+    height: 290px;
     border-radius: 25px;
 }
 
 .picture1 {
     width: 400px;
-    height: 400px;
+    height: 380px;
     border-radius: 25px;
     
     
